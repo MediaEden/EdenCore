@@ -17,7 +17,7 @@ INCR_INSTALL="true"
 
 # ThirdParty Version
 OPENSSL_VERSION=3.0.0
-X264_VERSION=163 #x264.h -> X264_BUILD 
+X264_VERSION=164 #x264.h -> X264_BUILD
 X265_VERSION=3.4
 VPX_VERSION=1.11.0
 FDKAAC_VERSION=2.0.2
@@ -101,7 +101,7 @@ function detect_os() {
 	fi
 
 	echo "- OSNAME: ${OSNAME}"
-	echo "- OSVERSION: ${OSVERSION}"
+	echo "- OSVERSION: ${OSVERSION}.${OSMINORVERSION}"
 	footer
 }
 
@@ -112,11 +112,11 @@ function validate_os() {
 	echo "[ Check OS Support ]"
 
 	if [[ "${OSNAME}" == "Ubuntu" && "${OSVERSION}.${OSMINORVERSION}" != "20.04" ]]; then
-		fail_exit "	${OSNAME}.${OSVERSION}.${OSMINORVERSION} not supproted"	
-	elif [[ "	${OSNAME}" == "CentOS" ]]; then
-		fail_exit "${OSNAME}.${OSVERSION}.${OSMINORVERSION} not supproted"	
-	elif [[ "${OSNAME}" != "macOS" ]]; then
-		fail_exit "	${OSNAME}.${OSVERSION}.${OSMINORVERSION} not supproted"	
+		fail_exit "	${OSNAME} ${OSVERSION}.${OSMINORVERSION} not supproted"
+	elif [[ "${OSNAME}" == "CentOS" ]]; then
+		fail_exit "${OSNAME} ${OSVERSION}.${OSMINORVERSION} not supproted"
+	elif [[ "${OSNAME}" != "macOS" && "${OSNAME}" != "Ubuntu" ]]; then
+		fail_exit "	${OSNAME} ${OSVERSION}.${OSMINORVERSION} not supproted"
 	fi
 
 	echo "- Supproted OS"
@@ -152,13 +152,14 @@ function init_script() {
 	MAKEFLAG="${MAKEFLAGS} -j${NCPU}"
 }
 
-function instsall_base_ubuntu() {
+function install_base_ubuntu() {
 	header
 	echo "[ Install Ubuntu base deps ]"
 
-	${SUDO} apt update
-	${SUDO} apt upgrade
-	${SUDO} apt install -y pkg-config nasm yasm automake libtool cmake make build-essential autoconf 
+	${SUDO} apt update -y
+	${SUDO} apt upgrade -y
+	${SUDO} apt install -y pkg-config nasm yasm automake libtool cmake make build-essential autoconf
+	${SUDO} apt install -y libxml2-dev libfreetype-dev
 	
 	footer
 }
@@ -190,7 +191,7 @@ function install_openssl() {
 	header
 	echo "[ Install OpenSSL ]"
 
-	local LIST_LIBS=`ls ${PREFIX}/lib/libssl* 2>/dev/null`
+	local LIST_LIBS=`ls ${PREFIX}/lib/libssl* ${PREFIX}/lib64/libssl* 2>/dev/null`
 	$INCR_INSTALL && [[ ! -z $LIST_LIBS ]] && echo "OpenSSL already installed." && footer && return 0
 
 	(DIR=${TEMP_PATH}/openssl && \
@@ -210,11 +211,11 @@ function install_x264() {
 	header
 	echo "[ Install X264 ]"
 
-	local LIST_LIBS=`ls ${PREFIX}/lib/libx264* 2>/dev/null`
+	local LIST_LIBS=`ls ${PREFIX}/lib/libx264* ${PREFIX}/lib64/libx264* 2>/dev/null`
 	$INCR_INSTALL && [[ ! -z $LIST_LIBS ]] && echo "X264 already installed." && footer && return 0
 
 	(DIR=${TEMP_PATH}/x264 && \
-	git clone -b stable --single-branch https://code.videolan.org/videolan/x264.git ${DIR} && \
+	git clone https://github.com/mirror/x264.git ${DIR} && \
 	cd ${DIR} && \
 	./configure --prefix="${PREFIX}" --enable-shared --enable-pic --disable-cli && \
 	make ${MAKEFLAG} && \
@@ -229,7 +230,7 @@ function install_x265() {
 	header
 	echo "[ Install X265 ]"
 
-	local LIST_LIBS=`ls ${PREFIX}/lib/libx265* 2>/dev/null`
+	local LIST_LIBS=`ls ${PREFIX}/lib/libx265* ${PREFIX}/lib64/libx265* 2>/dev/null`
 	$INCR_INSTALL && [[ ! -z $LIST_LIBS ]] && echo "X265 already installed." && footer && return 0
 
 	(DIR=${TEMP_PATH}/x265 && \
@@ -254,7 +255,7 @@ function install_vpx() {
 		local ADDITIONAL_FLAG=--target=x86_64-darwin16-gcc # <- solve ld: --no-undefined error
 	fi
 
-	local LIST_LIBS=`ls ${PREFIX}/lib/libvpx* 2>/dev/null`
+	local LIST_LIBS=`ls ${PREFIX}/lib/libvpx* ${PREFIX}/lib64/libvpx* 2>/dev/null`
 	$INCR_INSTALL && [[ ! -z $LIST_LIBS ]] && echo "vpx already installed." && footer && return 0
 
 	(DIR=${TEMP_PATH}/vpx && \
@@ -276,7 +277,7 @@ function install_fdkaac() {
 	header
 	echo "[ Install fdkaac ]"
 
-	local LIST_LIBS=`ls ${PREFIX}/lib/libfdk-aac* 2>/dev/null`
+	local LIST_LIBS=`ls ${PREFIX}/lib/libfdk-aac* ${PREFIX}/lib64/libfdk-aad* 2>/dev/null`
 	$INCR_INSTALL && [[ ! -z $LIST_LIBS ]] && echo "fdkaac already installed." && footer && return 0
 
 	(DIR=${TEMP_PATH}/fdkaac && \
@@ -297,7 +298,7 @@ function install_opus() {
 	header
 	echo "[ Install opus ]"
 
-	local LIST_LIBS=`ls ${PREFIX}/lib/libopus* 2>/dev/null`
+	local LIST_LIBS=`ls ${PREFIX}/lib/libopus* ${PREFIX}/lib64/libopus* 2>/dev/null`
 	$INCR_INSTALL && [[ ! -z $LIST_LIBS ]] && echo "opus already installed." && footer && return 0
 
 	(DIR=${TEMP_PATH}/opus && \
@@ -319,7 +320,7 @@ function install_mp3lame() {
 	header
 	echo "[ Install mp3lame ]"
 
-	local LIST_LIBS=`ls ${PREFIX}/lib/libmp3lame* 2>/dev/null`
+	local LIST_LIBS=`ls ${PREFIX}/lib/libmp3lame* ${PREFIX}/lib64/libmpm3lame* 2>/dev/null`
 	$INCR_INSTALL && [[ ! -z $LIST_LIBS ]] && echo "mp3lame already installed." && footer && return 0
 
 	(DIR=${TEMP_PATH}/mp3lame && \
@@ -341,7 +342,7 @@ function install_ffmpeg() {
 
 	#	flag save: --enable-libaom --enable-libmp3lame --enable-libfdk_aac --enable-opus
 
-	local LIST_LIBS=`ls ${PREFIX}/lib/libavformat* 2>/dev/null`
+	local LIST_LIBS=`ls ${PREFIX}/lib/libavformat* ${PREFIX}/lib64/libavformat* 2>/dev/null`
 	$INCR_INSTALL && [[ ! -z $LIST_LIBS ]] && echo "FFmpeg already installed." && footer && return 0
 
   local	DEBUG_FLAGS=""
@@ -357,7 +358,7 @@ function install_ffmpeg() {
 	--prefix="${PREFIX}" \
 	--enable-gpl --enable-nonfree --enable-version3 \
 	--extra-cflags="-I${PREFIX}/include" \
-	--extra-ldflags="-L${PREFIX}/lib -Wl,-rpath, ${PREFIX}/lib" \
+	--extra-ldflags="-L${PREFIX}/lib -Wl,-rpath,${PREFIX}/lib" \
 	--enable-shared --disable-static \
 	--enable-openssl \
 	--enable-libxml2 \
