@@ -1,0 +1,12 @@
+<map id="AVStream" name="AVStream">
+<area shape="rect" id="node1" title=" " alt="" coords="611,231,692,257"/>
+<area shape="rect" id="node2" href="$struct_a_v_rational.html" title=" " alt="" coords="29,76,117,103"/>
+<area shape="rect" id="node6" href="$struct_a_v_codec_parameters.html" title=" " alt="" coords="324,125,471,152"/>
+<area shape="rect" id="node3" href="$struct_a_v_packet.html" title=" " alt="" coords="357,179,437,205"/>
+<area shape="rect" id="node4" href="$struct_a_v_buffer_ref.html" title=" " alt="" coords="25,141,120,168"/>
+<area shape="rect" id="node5" href="$struct_a_v_packet_side_data.html" title=" " alt="" coords="5,197,140,224"/>
+<area shape="rect" id="node7" href="$struct_a_v_codec_parser_context.html" title=" " alt="" coords="316,292,479,319"/>
+<area shape="rect" id="node8" href="$struct_a_v_codec_parser.html" title=" " alt="" coords="15,292,131,319"/>
+<area shape="rect" id="node9" href="$struct_a_v_probe_data.html" title=" " alt="" coords="346,343,449,369"/>
+<area shape="rect" id="node10" href="$struct_a_v_index_entry.html" title=" " alt="" coords="346,393,449,420"/>
+</map>

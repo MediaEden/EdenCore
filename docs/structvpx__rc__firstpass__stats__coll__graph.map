@@ -1,0 +1,4 @@
+<map id="vpx_rc_firstpass_stats" name="vpx_rc_firstpass_stats">
+<area shape="rect" id="node1" title="Collection of first pass frame stats." alt="" coords="5,95,159,121"/>
+<area shape="rect" id="node2" href="$structvpx__rc__frame__stats.html" title="First pass frame stats This is a mirror of vp9&#39;s FIRSTPASS_STATS except that spatial_layer_id is omit..." alt="" coords="13,5,151,32"/>
+</map>

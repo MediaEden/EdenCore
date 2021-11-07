@@ -1,0 +1,7 @@
+<map id="libdeps/include/opus/opus_projection.h" name="libdeps/include/opus/opus_projection.h">
+<area shape="rect" id="node1" title="Opus projection reference API." alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node2" href="$opus__multistream_8h.html" title="Opus reference implementation multistream API." alt="" coords="7,95,146,121"/>
+<area shape="rect" id="node3" href="$opus_8h.html" title="Opus reference implementation API." alt="" coords="45,169,108,196"/>
+<area shape="rect" id="node4" href="$opus__types_8h.html" title="Opus reference implementation types." alt="" coords="26,319,127,345"/>
+<area shape="rect" id="node5" href="$opus__defines_8h.html" title="Opus reference implementation constants." alt="" coords="67,244,179,271"/>
+</map>

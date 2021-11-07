@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Greeter: CppStarter</title>
+<title>EdenCore: CppStarter</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Greeter<span id="projectnumber">&#160;0.1.0</span>
+   <div id="projectname">EdenCore<span id="projectnumber">&#160;0.1.0</span>
    </div>
   </td>
  </tr>
@@ -65,61 +65,96 @@ $(function() {
   <div class="headertitle"><div class="title">CppStarter </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p >C++ Project Starter</p>
+<div class="textblock"><ul>
+<li>C++ Project Starter</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Build</h1>
-<p >cmake -S . -B build cmake &ndash;build build cmake &ndash;build build &ndash;target install</p>
+<ul>
+<li>cmake -S . -B build</li>
+<li>cmake &ndash;build build</li>
+<li>cmake &ndash;build build &ndash;target install</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
 cmake-format</h1>
-<p >dependencies: pip, cmakelang, pyyaml install pip pip install cmakelang pip install pyyaml</p>
-<p >find . ( -name '*.cmake' -o -name 'CMakeLists.txt' ) -exec cmake-format -i {} \;</p>
-<p >cmake &ndash;build build &ndash;target clang-format</p>
+<ul>
+<li>dependencies: pip, cmakelang, pyyaml</li>
+<li>install pip</li>
+<li>pip install cmakelang</li>
+<li>pip install pyyaml</li>
+<li>find . ( -name '*.cmake' -o -name 'CMakeLists.txt' ) -exec cmake-format -i {} \;</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md3"></a>
-git hooks</h1>
+clang-format</h1>
+<ul>
+<li>cmake &ndash;build build &ndash;target clang-format</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md4"></a>
+git</h1>
+<h2><a class="anchor" id="autotoc_md5"></a>
+hooks</h2>
 <ul>
 <li>add hook to ${PROJECT_SOURCE_DIR}/hooks}</li>
 <li>pre-installed hooks<ul>
-<li>pre-commit: clang-format foramtting, cmake-format</li>
+<li>pre-commit: clang-format foramtting, cmake-format </li>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
-statical-analyzer</h1>
-<h2><a class="anchor" id="autotoc_md5"></a>
-clang-tidy</h2>
-<p >dependencies: macos -&gt; llvm (설치 후 llvm bin path export) </p>
 <h2><a class="anchor" id="autotoc_md6"></a>
-cppcheck</h2>
-<p >dependencies: cppcheck</p>
+submodule</h2>
+<ul>
+<li>auto init &amp; update</li>
+</ul>
 <h1><a class="anchor" id="autotoc_md7"></a>
+statical-analyzer</h1>
+<h2><a class="anchor" id="autotoc_md8"></a>
+clang-tidy</h2>
+<ul>
+<li>dependencies: macos -&gt; llvm (설치 후 llvm bin path export)</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md9"></a>
+cppcheck</h2>
+<ul>
+<li>dependencies: cppcheck</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md10"></a>
 doxygen</h1>
 <ul>
-<li>dependencies<ul>
-<li>doxygen, graphviz</li>
-</ul>
-</li>
+<li>dependencies: doxygen, graphviz</li>
 <li>cmake &ndash;build build &ndash;target doxygen</li>
-<li>mv html docs</li>
+<li>mv html docs (project root directory 에 생성되는 html 폴더를 docs로 이동)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md11"></a>
 Unit-test</h1>
-<h2><a class="anchor" id="autotoc_md9"></a>
-cmake –build build –target ctest</h2>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<ul>
+<li>cmake &ndash;build build &ndash;target ctest</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Google Test</h2>
 <ul>
-<li>dependencies<ul>
-<li>googletest </li>
+<li>dependencies: googletest </li>
 </ul>
-</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Catch2</h2>
 <ul>
-<li>dependencies<ul>
-<li>catch2 </li>
+<li>dependencies: catch2</li>
 </ul>
-</li>
+<h1><a class="anchor" id="autotoc_md14"></a>
+Code Coverage</h1>
+<ul>
+<li>gcc -&gt; gcovr -&gt; coverage</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md15"></a>
+Package Manager</h1>
+<h2><a class="anchor" id="autotoc_md16"></a>
+Conan</h2>
+<ul>
+<li>update conanfile.txt</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md17"></a>
+Vcpkg</h2>
+<ul>
+<li>updated ... but not tested </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

@@ -1,0 +1,6 @@
+<map id="libdeps/include/fdk&#45;aac/syslib_channelMapDescr.h" name="libdeps/include/fdk&#45;aac/syslib_channelMapDescr.h">
+<area shape="rect" id="node1" title="Function and structure declarations for the channel map descriptor implementation." alt="" coords="59,5,270,47"/>
+<area shape="rect" id="node2" href="$_f_d_k__audio_8h.html" title="Global audio struct and constant definitions." alt="" coords="99,95,231,136"/>
+<area shape="rect" id="node3" href="$aacdecoder__lib_8h.html" title="FDK AAC decoder library interface header file." alt="" coords="5,184,159,225"/>
+<area shape="rect" id="node4" href="$aacenc__lib_8h.html" title="FDK AAC Encoder library interface header file." alt="" coords="183,184,315,225"/>
+</map>

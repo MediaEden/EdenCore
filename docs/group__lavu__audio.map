@@ -1,0 +1,10 @@
+<map id="Audio related" name="Audio related">
+<area shape="rect" id="node1" href="$group__channel__mask__c.html" title=" " alt="" coords="278,5,430,31"/>
+<area shape="rect" id="node2" href="$group__channel__masks.html" title=" " alt="" coords="279,55,429,80"/>
+<area shape="rect" id="node3" href="$group__downmix__info.html" title=" " alt="" coords="268,104,440,129"/>
+<area shape="rect" id="node4" href="$group__lavu.html" title=" " alt="" coords="5,129,72,155"/>
+<area shape="rect" id="node5" title=" " alt="" coords="120,129,220,155"/>
+<area shape="rect" id="node6" href="$group__lavu__audiofifo.html" title=" " alt="" coords="289,153,419,179"/>
+<area shape="rect" id="node7" href="$group__lavu__sampfmts.html" title=" " alt="" coords="279,203,429,228"/>
+<area shape="rect" id="node8" href="$group__lavu__sampmanip.html" title=" " alt="" coords="277,252,431,277"/>
+</map>

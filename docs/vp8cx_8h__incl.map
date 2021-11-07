@@ -1,0 +1,12 @@
+<map id="libdeps/include/vpx/vp8cx.h" name="libdeps/include/vpx/vp8cx.h">
+<area shape="rect" id="node1" title="Provides definitions for using VP8 or VP9 encoder algorithm within the vpx Codec Interface." alt="" coords="84,5,219,47"/>
+<area shape="rect" id="node2" href="$vp8_8h.html" title="Provides controls common to both the VP8 encoder and decoder." alt="" coords="7,95,69,121"/>
+<area shape="rect" id="node9" href="$vpx__encoder_8h.html" title="Describes the encoder algorithm interface to applications." alt="" coords="93,95,209,121"/>
+<area shape="rect" id="node10" href="$vpx__ext__ratectrl_8h.html" title=" " alt="" coords="180,169,315,196"/>
+<area shape="rect" id="node3" href="$vpx__codec_8h.html" title="Describes the codec algorithm interface to applications." alt="" coords="51,169,155,196"/>
+<area shape="rect" id="node4" href="$vpx__image_8h.html" title="Describes the vpx image descriptor and associated operations." alt="" coords="5,244,111,271"/>
+<area shape="rect" id="node5" href="$vpx__integer_8h.html" title=" " alt="" coords="163,244,273,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="85,319,154,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="179,319,257,345"/>
+<area shape="rect" id="node8" title=" " alt="" coords="281,319,347,345"/>
+</map>

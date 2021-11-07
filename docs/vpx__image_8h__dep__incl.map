@@ -1,0 +1,9 @@
+<map id="libdeps/include/vpx/vpx_image.h" name="libdeps/include/vpx/vpx_image.h">
+<area shape="rect" id="node1" title="Describes the vpx image descriptor and associated operations." alt="" coords="84,5,219,47"/>
+<area shape="rect" id="node2" href="$vp8_8h.html" title="Provides controls common to both the VP8 encoder and decoder." alt="" coords="5,184,140,225"/>
+<area shape="rect" id="node5" href="$vpx__codec_8h.html" title="Describes the codec algorithm interface to applications." alt="" coords="151,95,285,136"/>
+<area shape="rect" id="node3" href="$vp8cx_8h.html" title="Provides definitions for using VP8 or VP9 encoder algorithm within the vpx Codec Interface." alt="" coords="243,273,377,315"/>
+<area shape="rect" id="node4" href="$vp8dx_8h.html" title="Provides definitions for using VP8 or VP9 within the vpx Decoder interface." alt="" coords="5,273,140,315"/>
+<area shape="rect" id="node6" href="$vpx__decoder_8h.html" title="Describes the decoder algorithm interface to applications." alt="" coords="164,184,299,225"/>
+<area shape="rect" id="node7" href="$vpx__encoder_8h.html" title="Describes the encoder algorithm interface to applications." alt="" coords="323,184,457,225"/>
+</map>

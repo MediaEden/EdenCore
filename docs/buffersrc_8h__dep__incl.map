@@ -1,0 +1,7 @@
+<map id="libdeps/include/libavfilter/buffersrc.h" name="libdeps/include/libavfilter/buffersrc.h">
+<area shape="rect" id="node1" title=" " alt="" coords="301,5,467,47"/>
+<area shape="rect" id="node2" href="$filter__audio_8c.html" title=" " alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node3" href="$filtering__audio_8c.html" title=" " alt="" coords="193,95,373,136"/>
+<area shape="rect" id="node4" href="$filtering__video_8c.html" title=" " alt="" coords="397,95,576,136"/>
+<area shape="rect" id="node5" href="$transcoding_8c.html" title=" " alt="" coords="600,95,765,136"/>
+</map>

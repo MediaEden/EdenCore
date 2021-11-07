@@ -1,0 +1,17 @@
+<map id="x265_picture" name="x265_picture">
+<area shape="rect" id="node1" title=" " alt="" coords="833,360,932,387"/>
+<area shape="rect" id="node2" href="$structx265__analysis__data.html" title=" " alt="" coords="555,157,695,184"/>
+<area shape="rect" id="node3" href="$structx265__weight__param.html" title=" " alt="" coords="239,5,381,32"/>
+<area shape="rect" id="node4" href="$structx265__analysis__inter__data.html" title=" " alt="" coords="223,56,397,83"/>
+<area shape="rect" id="node5" href="$structx265__analysis___m_v.html" title=" " alt="" coords="5,56,139,83"/>
+<area shape="rect" id="node6" href="$structx265__analysis__intra__data.html" title=" " alt="" coords="223,107,397,133"/>
+<area shape="rect" id="node7" href="$structx265__lookahead__data.html" title=" " alt="" coords="233,157,387,184"/>
+<area shape="rect" id="node8" href="$structx265__analysis__validate.html" title=" " alt="" coords="230,208,390,235"/>
+<area shape="rect" id="node9" href="$structx265__analysis__distortion__data.html" title=" " alt="" coords="209,259,411,285"/>
+<area shape="rect" id="node10" href="$structx265__frame__stats.html" title=" " alt="" coords="561,335,689,361"/>
+<area shape="rect" id="node11" href="$structx265__cu__stats.html" title=" " alt="" coords="256,309,364,336"/>
+<area shape="rect" id="node12" href="$structx265__pu__stats.html" title=" " alt="" coords="255,360,365,387"/>
+<area shape="rect" id="node13" href="$structx265__sei.html" title=" " alt="" coords="587,385,663,412"/>
+<area shape="rect" id="node14" href="$structx265__sei__payload.html" title=" " alt="" coords="245,411,375,437"/>
+<area shape="rect" id="node15" href="$structx265__dolby__vision__rpu.html" title=" " alt="" coords="545,436,704,463"/>
+</map>

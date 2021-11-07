@@ -1,0 +1,5 @@
+<map id="vpx_codec_enc_output_cx_cb_pair" name="vpx_codec_enc_output_cx_cb_pair">
+<area shape="rect" id="node1" title="Callback function pointer / user data pair storage." alt="" coords="5,213,164,255"/>
+<area shape="rect" id="node2" href="$structvpx__codec__cx__pkt.html" title="Encoder output packet." alt="" coords="19,124,151,151"/>
+<area shape="rect" id="node3" href="$structvpx__fixed__buf.html" title="Generic fixed size buffer structure." alt="" coords="33,5,137,32"/>
+</map>

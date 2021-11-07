@@ -1,0 +1,5 @@
+<map id="libavfilter" name="libavfilter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,80,56"/>
+<area shape="rect" id="node2" href="$group__lavfi__buffersink.html" title=" " alt="" coords="136,5,245,31"/>
+<area shape="rect" id="node3" href="$group__lavfi__buffersrc.html" title=" " alt="" coords="128,55,253,80"/>
+</map>

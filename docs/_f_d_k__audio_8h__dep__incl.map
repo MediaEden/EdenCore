@@ -1,0 +1,5 @@
+<map id="libdeps/include/fdk&#45;aac/FDK_audio.h" name="libdeps/include/fdk&#45;aac/FDK_audio.h">
+<area shape="rect" id="node1" title="Global audio struct and constant definitions." alt="" coords="99,5,231,47"/>
+<area shape="rect" id="node2" href="$aacdecoder__lib_8h.html" title="FDK AAC decoder library interface header file." alt="" coords="5,95,159,136"/>
+<area shape="rect" id="node3" href="$aacenc__lib_8h.html" title="FDK AAC Encoder library interface header file." alt="" coords="183,95,315,136"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="AVFilterGraph" name="AVFilterGraph">
+<area shape="rect" id="node1" title=" " alt="" coords="62,336,167,363"/>
+<area shape="rect" id="node5" href="$struct_a_v_filter_context.html" title=" " alt="" coords="227,456,341,483"/>
+<area shape="rect" id="node7" href="$struct_a_v_filter_link.html" title=" " alt="" coords="323,560,416,587"/>
+<area shape="rect" id="node2" href="$struct_a_v_class.html" title=" " alt="" coords="153,185,225,212"/>
+<area shape="rect" id="node6" href="$struct_a_v_filter.html" title=" " alt="" coords="191,336,259,363"/>
+<area shape="rect" id="node3" href="$struct_a_v_option.html" title=" " alt="" coords="251,95,330,121"/>
+<area shape="rect" id="node4" href="$struct_a_v_rational.html" title=" " alt="" coords="357,5,445,32"/>
+<area shape="rect" id="node9" href="$struct_a_v_frame.html" title=" " alt="" coords="615,456,692,483"/>
+<area shape="rect" id="node8" href="$struct_a_v_filter_formats_config.html" title=" " alt="" coords="717,456,873,483"/>
+<area shape="rect" id="node10" href="$struct_a_v_buffer_ref.html" title=" " alt="" coords="575,185,670,212"/>
+<area shape="rect" id="node11" href="$struct_a_v_frame_side_data.html" title=" " alt="" coords="769,336,901,363"/>
+</map>

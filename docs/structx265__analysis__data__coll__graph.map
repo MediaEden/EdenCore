@@ -1,0 +1,10 @@
+<map id="x265_analysis_data" name="x265_analysis_data">
+<area shape="rect" id="node1" title=" " alt="" coords="545,132,685,159"/>
+<area shape="rect" id="node2" href="$structx265__weight__param.html" title=" " alt="" coords="239,5,381,32"/>
+<area shape="rect" id="node3" href="$structx265__analysis__inter__data.html" title=" " alt="" coords="223,56,397,83"/>
+<area shape="rect" id="node4" href="$structx265__analysis___m_v.html" title=" " alt="" coords="5,56,139,83"/>
+<area shape="rect" id="node5" href="$structx265__analysis__intra__data.html" title=" " alt="" coords="223,107,397,133"/>
+<area shape="rect" id="node6" href="$structx265__lookahead__data.html" title=" " alt="" coords="233,157,387,184"/>
+<area shape="rect" id="node7" href="$structx265__analysis__validate.html" title=" " alt="" coords="230,208,390,235"/>
+<area shape="rect" id="node8" href="$structx265__analysis__distortion__data.html" title=" " alt="" coords="209,259,411,285"/>
+</map>

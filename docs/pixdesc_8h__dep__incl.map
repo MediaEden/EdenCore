@@ -1,0 +1,10 @@
+<map id="libdeps/include/libavutil/pixdesc.h" name="libdeps/include/libavutil/pixdesc.h">
+<area shape="rect" id="node1" title=" " alt="" coords="675,5,834,47"/>
+<area shape="rect" id="node2" href="$imgutils_8h.html" title=" " alt="" coords="459,95,618,136"/>
+<area shape="rect" id="node5" href="$hw__decode_8c.html" title=" " alt="" coords="652,184,817,225"/>
+<area shape="rect" id="node7" href="$transcoding_8c.html" title=" " alt="" coords="732,95,897,136"/>
+<area shape="rect" id="node8" href="$vaapi__encode_8c.html" title=" " alt="" coords="922,95,1102,136"/>
+<area shape="rect" id="node3" href="$demuxing__decoding_8c.html" title=" " alt="" coords="5,184,221,225"/>
+<area shape="rect" id="node4" href="$encode__video_8c.html" title=" " alt="" coords="246,184,426,225"/>
+<area shape="rect" id="node6" href="$scaling__video_8c.html" title=" " alt="" coords="450,184,627,225"/>
+</map>

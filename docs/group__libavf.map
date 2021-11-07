@@ -1,0 +1,12 @@
+<map id="libavformat" name="libavformat">
+<area shape="rect" id="node1" href="$group__lavf__codec.html" title=" " alt="" coords="170,5,253,31"/>
+<area shape="rect" id="node2" href="$group__lavf__core.html" title=" " alt="" coords="157,55,265,80"/>
+<area shape="rect" id="node3" href="$group__lavf__decoding.html" title=" " alt="" coords="170,104,253,129"/>
+<area shape="rect" id="node4" href="$group__lavf__encoding.html" title=" " alt="" coords="179,153,244,179"/>
+<area shape="rect" id="node5" href="$group__lavf__internal.html" title=" " alt="" coords="178,203,245,228"/>
+<area shape="rect" id="node6" href="$group__lavf__io.html" title=" " alt="" coords="157,252,266,277"/>
+<area shape="rect" id="node7" href="$group__lavf__misc.html" title=" " alt="" coords="155,301,267,327"/>
+<area shape="rect" id="node8" href="$group__lavf__protos.html" title=" " alt="" coords="162,351,261,376"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,203,92,228"/>
+<area shape="rect" id="node10" href="$group__metadata__api.html" title=" " alt="" coords="140,400,283,425"/>
+</map>

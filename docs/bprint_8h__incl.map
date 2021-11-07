@@ -1,0 +1,10 @@
+<map id="libdeps/include/libavutil/bprint.h" name="libdeps/include/libavutil/bprint.h">
+<area shape="rect" id="node1" title=" " alt="" coords="35,5,193,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" href="$attributes_8h.html" title=" " alt="" coords="58,169,146,196"/>
+<area shape="rect" id="node4" href="$avstring_8h.html" title=" " alt="" coords="165,95,245,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="170,169,239,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="264,169,329,196"/>
+<area shape="rect" id="node7" href="$libdeps_2include_2libavutil_2version_8h.html" title=" " alt="" coords="353,169,429,196"/>
+<area shape="rect" id="node8" href="$libavutil_2macros_8h.html" title=" " alt="" coords="353,244,430,271"/>
+</map>

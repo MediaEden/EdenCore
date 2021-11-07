@@ -1,0 +1,8 @@
+<map id="libdeps/include/fdk&#45;aac/aacenc_lib.h" name="libdeps/include/fdk&#45;aac/aacenc_lib.h">
+<area shape="rect" id="node1" title="FDK AAC Encoder library interface header file." alt="" coords="5,5,137,47"/>
+<area shape="rect" id="node2" href="$machine__type_8h.html" title="Type defines for various processors and compiler tools." alt="" coords="64,244,180,271"/>
+<area shape="rect" id="node4" href="$_f_d_k__audio_8h.html" title="Global audio struct and constant definitions." alt="" coords="91,95,191,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="87,319,157,345"/>
+<area shape="rect" id="node5" href="$generic_stds_8h.html" title="Generic Run&#45;Time Support function wrappers and heap allocation monitoring." alt="" coords="115,169,219,196"/>
+<area shape="rect" id="node6" href="$syslib__channel_map_descr_8h.html" title="Function and structure declarations for the channel map descriptor implementation." alt="" coords="244,169,424,196"/>
+</map>

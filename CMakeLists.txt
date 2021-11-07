@@ -64,6 +64,7 @@ configure_file(${PROJECT_SOURCE_DIR}/cmake/Version.h.in ${PROJECT_SOURCE_DIR}/in
 # Add source files Note: globbing sources is considered bad practice as CMake's generators may not detect new files
 # automatically. Keep that in mind when changing files, or explicitly mention them here.
 set(PROJECT_HEADER_DIR ${PROJECT_SOURCE_DIR}/include)
+set(LIBDEPS_HEADER_DIR ${PROJECT_SOURCE_DIR}/libdeps/include)
 file(
   GLOB_RECURSE
   sources
@@ -80,11 +81,11 @@ set_target_properties(
 target_include_directories(
   ${PROJECT_NAME}
   PUBLIC ${PROJECT_HEADER_DIR}
-  PRIVATE ${PROJECT_SOURCE_DIR}/src)
+  PRIVATE ${PROJECT_SOURCE_DIR}/src ${LIBDEPS_HEADER_DIR})
 target_link_libraries(
   ${PROJECT_NAME}
   PUBLIC
-  PRIVATE)
+  PRIVATE PkgConfig::FFMPEG_LIBS)
 install(
   TARGETS ${PROJECT_NAME}
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
