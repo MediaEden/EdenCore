@@ -1,4 +1,0 @@
-<map id="libdeps/include/vpx/vpx_encoder.h" name="libdeps/include/vpx/vpx_encoder.h">
-<area shape="rect" id="node1" title="Describes the encoder algorithm interface to applications." alt="" coords="5,5,140,47"/>
-<area shape="rect" id="node2" href="$vp8cx_8h.html" title="Provides definitions for using VP8 or VP9 encoder algorithm within the vpx Codec Interface." alt="" coords="5,95,140,136"/>
-</map>

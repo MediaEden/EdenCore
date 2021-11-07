@@ -1,9 +1,0 @@
-<map id="Hardware Accelerators bridge" name="Hardware Accelerators bridge">
-<area shape="rect" id="node1" href="$group__lavc__codec.html" title=" " alt="" coords="5,104,72,129"/>
-<area shape="rect" id="node2" title=" " alt="" coords="120,97,277,137"/>
-<area shape="rect" id="node3" href="$group__lavc__codec__hwaccel__d3d11va.html" title=" " alt="" coords="385,5,473,31"/>
-<area shape="rect" id="node4" href="$group__lavc__codec__hwaccel__dxva2.html" title=" " alt="" coords="396,55,461,80"/>
-<area shape="rect" id="node5" href="$group__lavc__codec__hwaccel__vaapi.html" title=" " alt="" coords="367,104,490,129"/>
-<area shape="rect" id="node6" href="$group__lavc__codec__hwaccel__vdpau.html" title=" " alt="" coords="325,153,532,179"/>
-<area shape="rect" id="node7" href="$group__lavc__codec__hwaccel__xvmc.html" title=" " alt="" coords="399,203,458,228"/>
-</map>

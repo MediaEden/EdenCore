@@ -1,8 +1,0 @@
-<map id="pkcs7_signer_info_st" name="pkcs7_signer_info_st">
-<area shape="rect" id="node1" title=" " alt="" coords="104,449,250,476"/>
-<area shape="rect" id="node2" href="$structasn1__string__st.html" title=" " alt="" coords="129,5,238,32"/>
-<area shape="rect" id="node3" href="$structpkcs7__issuer__and__serial__st.html" title=" " alt="" coords="90,293,277,320"/>
-<area shape="rect" id="node5" href="$structasn1__type__st.html" title=" " alt="" coords="238,241,340,268"/>
-<area shape="rect" id="node4" href="$struct_x509__algor__st.html" title=" " alt="" coords="254,345,362,372"/>
-<area shape="rect" id="node6" href="$struct_p_k_c_s7___c_t_x__st.html" title=" " alt="" coords="386,345,504,372"/>
-</map>

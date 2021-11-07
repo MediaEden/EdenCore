@@ -1,8 +1,0 @@
-<map id="pkcs7_signedandenveloped_st" name="pkcs7_signedandenveloped_st">
-<area shape="rect" id="node1" title=" " alt="" coords="5,509,211,536"/>
-<area shape="rect" id="node2" href="$structasn1__string__st.html" title=" " alt="" coords="117,5,227,32"/>
-<area shape="rect" id="node3" href="$structpkcs7__enc__content__st.html" title=" " alt="" coords="144,420,299,447"/>
-<area shape="rect" id="node5" href="$structasn1__type__st.html" title=" " alt="" coords="211,241,312,268"/>
-<area shape="rect" id="node4" href="$struct_x509__algor__st.html" title=" " alt="" coords="210,331,318,357"/>
-<area shape="rect" id="node6" href="$struct_p_k_c_s7___c_t_x__st.html" title=" " alt="" coords="343,331,460,357"/>
-</map>

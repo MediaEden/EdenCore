@@ -1,6 +1,0 @@
-<map id="rsa_oaep_params_st" name="rsa_oaep_params_st">
-<area shape="rect" id="node1" title=" " alt="" coords="5,464,152,491"/>
-<area shape="rect" id="node2" href="$struct_x509__algor__st.html" title=" " alt="" coords="25,331,133,357"/>
-<area shape="rect" id="node3" href="$structasn1__type__st.html" title=" " alt="" coords="28,241,129,268"/>
-<area shape="rect" id="node4" href="$structasn1__string__st.html" title=" " alt="" coords="24,5,133,32"/>
-</map>

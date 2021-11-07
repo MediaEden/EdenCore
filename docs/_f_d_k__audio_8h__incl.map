@@ -1,7 +1,0 @@
-<map id="libdeps/include/fdk&#45;aac/FDK_audio.h" name="libdeps/include/fdk&#45;aac/FDK_audio.h">
-<area shape="rect" id="node1" title="Global audio struct and constant definitions." alt="" coords="7,5,139,47"/>
-<area shape="rect" id="node2" href="$machine__type_8h.html" title="Type defines for various processors and compiler tools." alt="" coords="15,169,131,196"/>
-<area shape="rect" id="node4" href="$generic_stds_8h.html" title="Generic Run&#45;Time Support function wrappers and heap allocation monitoring." alt="" coords="21,95,125,121"/>
-<area shape="rect" id="node5" href="$syslib__channel_map_descr_8h.html" title="Function and structure declarations for the channel map descriptor implementation." alt="" coords="149,95,329,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="38,244,107,271"/>
-</map>

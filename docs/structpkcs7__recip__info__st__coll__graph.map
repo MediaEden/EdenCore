@@ -1,8 +1,0 @@
-<map id="pkcs7_recip_info_st" name="pkcs7_recip_info_st">
-<area shape="rect" id="node1" title=" " alt="" coords="92,435,232,461"/>
-<area shape="rect" id="node2" href="$structasn1__string__st.html" title=" " alt="" coords="114,5,223,32"/>
-<area shape="rect" id="node3" href="$structpkcs7__issuer__and__serial__st.html" title=" " alt="" coords="75,293,262,320"/>
-<area shape="rect" id="node5" href="$structasn1__type__st.html" title=" " alt="" coords="223,241,324,268"/>
-<area shape="rect" id="node4" href="$struct_x509__algor__st.html" title=" " alt="" coords="238,345,346,372"/>
-<area shape="rect" id="node6" href="$struct_p_k_c_s7___c_t_x__st.html" title=" " alt="" coords="371,345,488,372"/>
-</map>

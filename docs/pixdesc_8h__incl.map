@@ -1,9 +1,0 @@
-<map id="libdeps/include/libavutil/pixdesc.h" name="libdeps/include/libavutil/pixdesc.h">
-<area shape="rect" id="node1" title=" " alt="" coords="124,5,283,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,84,121"/>
-<area shape="rect" id="node3" href="$attributes_8h.html" title=" " alt="" coords="109,95,197,121"/>
-<area shape="rect" id="node4" href="$pixfmt_8h.html" title=" " alt="" coords="221,95,290,121"/>
-<area shape="rect" id="node6" href="$libdeps_2include_2libavutil_2version_8h.html" title=" " alt="" coords="289,169,365,196"/>
-<area shape="rect" id="node5" href="$avconfig_8h.html" title=" " alt="" coords="134,169,265,196"/>
-<area shape="rect" id="node7" href="$libavutil_2macros_8h.html" title=" " alt="" coords="289,244,366,271"/>
-</map>

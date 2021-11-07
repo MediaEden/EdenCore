@@ -1,8 +1,0 @@
-<map id="vpx_rc_funcs" name="vpx_rc_funcs">
-<area shape="rect" id="node1" title="Callback function set for external rate control." alt="" coords="655,81,755,108"/>
-<area shape="rect" id="node2" href="$structvpx__rc__config.html" title="Encode config sent to external rate control model." alt="" coords="303,5,407,32"/>
-<area shape="rect" id="node3" href="$structvpx__rc__firstpass__stats.html" title="Collection of first pass frame stats." alt="" coords="278,56,431,83"/>
-<area shape="rect" id="node4" href="$structvpx__rc__frame__stats.html" title="First pass frame stats This is a mirror of vp9&#39;s FIRSTPASS_STATS except that spatial_layer_id is omit..." alt="" coords="5,56,144,83"/>
-<area shape="rect" id="node5" href="$structvpx__rc__encodeframe__info.html" title="Information for the frame to be encoded." alt="" coords="267,107,443,133"/>
-<area shape="rect" id="node6" href="$structvpx__rc__encodeframe__result.html" title="Frame coding result." alt="" coords="281,158,428,199"/>
-</map>

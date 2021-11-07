@@ -1,5 +1,0 @@
-<map id="libdeps/include/vpx/vpx_ext_ratectrl.h" name="libdeps/include/vpx/vpx_ext_ratectrl.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,140,47"/>
-<area shape="rect" id="node2" href="$vp8cx_8h.html" title="Provides definitions for using VP8 or VP9 encoder algorithm within the vpx Codec Interface." alt="" coords="5,184,140,225"/>
-<area shape="rect" id="node3" href="$vpx__encoder_8h.html" title="Describes the encoder algorithm interface to applications." alt="" coords="59,95,193,136"/>
-</map>

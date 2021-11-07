@@ -1,5 +1,0 @@
-<map id="libdeps/include/vpx/vp8.h" name="libdeps/include/vpx/vp8.h">
-<area shape="rect" id="node1" title="Provides controls common to both the VP8 encoder and decoder." alt="" coords="84,5,219,47"/>
-<area shape="rect" id="node2" href="$vp8cx_8h.html" title="Provides definitions for using VP8 or VP9 encoder algorithm within the vpx Codec Interface." alt="" coords="5,95,140,136"/>
-<area shape="rect" id="node3" href="$vp8dx_8h.html" title="Provides definitions for using VP8 or VP9 within the vpx Decoder interface." alt="" coords="164,95,299,136"/>
-</map>

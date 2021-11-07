@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jumpconsistenthash_0',['JumpConsistentHash',['../namespace_media_eden_1_1_eden_core_1_1_utils.html#adbbbe82b6211fc8b267237101761ab77',1,'MediaEden::EdenCore::Utils']]]
+  ['_7esingleton_0',['~Singleton',['../class_media_eden_1_1_eden_core_1_1_utils_1_1_singleton.html#a14baa9a8bb4726cab4369f520bd38b6c',1,'MediaEden::EdenCore::Utils::Singleton']]]
 ];

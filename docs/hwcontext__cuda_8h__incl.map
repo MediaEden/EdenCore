@@ -1,8 +1,0 @@
-<map id="libdeps/include/libavutil/hwcontext_cuda.h" name="libdeps/include/libavutil/hwcontext_cuda.h">
-<area shape="rect" id="node1" title=" " alt="" coords="10,5,169,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="13,95,75,121"/>
-<area shape="rect" id="node3" href="$pixfmt_8h.html" title=" " alt="" coords="100,95,169,121"/>
-<area shape="rect" id="node4" href="$avconfig_8h.html" title=" " alt="" coords="5,169,136,196"/>
-<area shape="rect" id="node5" href="$libdeps_2include_2libavutil_2version_8h.html" title=" " alt="" coords="161,169,237,196"/>
-<area shape="rect" id="node6" href="$libavutil_2macros_8h.html" title=" " alt="" coords="160,244,237,271"/>
-</map>

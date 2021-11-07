@@ -1,6 +1,0 @@
-<map id="libdeps/include/fdk&#45;aac/genericStds.h" name="libdeps/include/fdk&#45;aac/genericStds.h">
-<area shape="rect" id="node1" title="Generic Run&#45;Time Support function wrappers and heap allocation monitoring." alt="" coords="67,5,201,47"/>
-<area shape="rect" id="node2" href="$_f_d_k__audio_8h.html" title="Global audio struct and constant definitions." alt="" coords="120,95,252,136"/>
-<area shape="rect" id="node3" href="$aacdecoder__lib_8h.html" title="FDK AAC decoder library interface header file." alt="" coords="5,184,159,225"/>
-<area shape="rect" id="node4" href="$aacenc__lib_8h.html" title="FDK AAC Encoder library interface header file." alt="" coords="183,184,315,225"/>
-</map>

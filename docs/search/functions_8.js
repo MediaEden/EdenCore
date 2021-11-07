@@ -1,25 +1,6 @@
 var searchData=
 [
-  ['hip_5fdecode_0',['hip_decode',['../lame_8h.html#a168bc98fe1f07d778f69d544196809c8',1,'lame.h']]],
-  ['hip_5fdecode1_1',['hip_decode1',['../lame_8h.html#a514454e9e5233cf90af9b40246fd3c89',1,'lame.h']]],
-  ['hip_5fdecode1_5fheaders_2',['hip_decode1_headers',['../lame_8h.html#ac07ef7fa7aa9e469e36a5836c86ee32b',1,'lame.h']]],
-  ['hip_5fdecode1_5fheadersb_3',['hip_decode1_headersB',['../lame_8h.html#a039b176fe94af1d10207dec05bff7310',1,'lame.h']]],
-  ['hip_5fdecode_5fexit_4',['hip_decode_exit',['../lame_8h.html#a7460018f10dab9fcb5c3eda8108bb2a2',1,'lame.h']]],
-  ['hip_5fdecode_5fheaders_5',['hip_decode_headers',['../lame_8h.html#abe0175c7c0c60e35ee59279481544f91',1,'lame.h']]],
-  ['hip_5fdecode_5finit_6',['hip_decode_init',['../lame_8h.html#a943964d31122c97534da7174520419ac',1,'lame.h']]],
-  ['hip_5fset_5fdebugf_7',['hip_set_debugf',['../lame_8h.html#aa508d0c2df8b2b0e7a4f64c5d464b301',1,'lame.h']]],
-  ['hip_5fset_5ferrorf_8',['hip_set_errorf',['../lame_8h.html#ad2008c3652c83dd104e222a3098be8dc',1,'lame.h']]],
-  ['hip_5fset_5fmsgf_9',['hip_set_msgf',['../lame_8h.html#a96641aea5002b09ccc753ed5dfa2010b',1,'lame.h']]],
-  ['hmac_10',['HMAC',['../openssl_2hmac_8h.html#a72c3c55bd720059c5cee2c93406c3101',1,'hmac.h']]],
-  ['hmac_5fctx_5fcopy_11',['HMAC_CTX_copy',['../openssl_2hmac_8h.html#a2e22c6a16e97da8d3a0b531965a26d89',1,'hmac.h']]],
-  ['hmac_5fctx_5ffree_12',['HMAC_CTX_free',['../openssl_2hmac_8h.html#aea71d5ac544c57a5318770a1840c8caf',1,'hmac.h']]],
-  ['hmac_5fctx_5fget_5fmd_13',['HMAC_CTX_get_md',['../openssl_2hmac_8h.html#a770cb500a6f7b0eab8d80072f80fcbaa',1,'hmac.h']]],
-  ['hmac_5fctx_5fnew_14',['HMAC_CTX_new',['../openssl_2hmac_8h.html#ab1cba11a617aa0d6d9b41b3df7007a5f',1,'hmac.h']]],
-  ['hmac_5fctx_5freset_15',['HMAC_CTX_reset',['../openssl_2hmac_8h.html#a029163fd75dfdb2b2a8504f2bb8e37cc',1,'hmac.h']]],
-  ['hmac_5fctx_5fset_5fflags_16',['HMAC_CTX_set_flags',['../openssl_2hmac_8h.html#a2e978495a975f4a26a0aadf1635f0c5d',1,'hmac.h']]],
-  ['hmac_5ffinal_17',['HMAC_Final',['../openssl_2hmac_8h.html#ae275e192b024cab574e5f58ec229635f',1,'hmac.h']]],
-  ['hmac_5finit_18',['HMAC_Init',['../openssl_2hmac_8h.html#a01a8a9e25f1f61687a9a697026aa80b3',1,'hmac.h']]],
-  ['hmac_5finit_5fex_19',['HMAC_Init_ex',['../openssl_2hmac_8h.html#a60c81579dabd9dffd5e9a4c8aea0bb93',1,'hmac.h']]],
-  ['hmac_5fsize_20',['HMAC_size',['../openssl_2hmac_8h.html#acd9da50658e266274a2d8e75eb27d17b',1,'hmac.h']]],
-  ['hmac_5fupdate_21',['HMAC_Update',['../openssl_2hmac_8h.html#ab8a4b41b77c7fda03fe0f0ea5223c176',1,'hmac.h']]]
+  ['setloglevel_0',['setLogLevel',['../class_media_eden_1_1_eden_core_1_1_utils_1_1_f_fmpeg_config.html#a6d8f86519062352f28c245229167ed70',1,'MediaEden::EdenCore::Utils::FFmpegConfig']]],
+  ['setlogredirect_1',['setLogRedirect',['../class_media_eden_1_1_eden_core_1_1_utils_1_1_f_fmpeg_config.html#af1e4ed63be951b5e8789b0833f62df3f',1,'MediaEden::EdenCore::Utils::FFmpegConfig']]],
+  ['singleton_2',['Singleton',['../class_media_eden_1_1_eden_core_1_1_utils_1_1_singleton.html#a7df22705cf110d7ab51e49f70d5a36da',1,'MediaEden::EdenCore::Utils::Singleton']]]
 ];

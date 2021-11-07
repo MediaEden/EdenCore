@@ -1,5 +1,0 @@
-<map id="vpx_codec_enc_cfg" name="vpx_codec_enc_cfg">
-<area shape="rect" id="node1" title="Encoder configuration structure." alt="" coords="61,329,201,356"/>
-<area shape="rect" id="node2" href="$structvpx__rational.html" title="Rational Number." alt="" coords="5,5,99,32"/>
-<area shape="rect" id="node3" href="$structvpx__fixed__buf.html" title="Generic fixed size buffer structure." alt="" coords="159,5,263,32"/>
-</map>

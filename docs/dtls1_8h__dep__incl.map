@@ -1,6 +1,0 @@
-<map id="libdeps/include/openssl/dtls1.h" name="libdeps/include/openssl/dtls1.h">
-<area shape="rect" id="node1" title=" " alt="" coords="97,5,257,47"/>
-<area shape="rect" id="node2" href="$ssl_8h.html" title=" " alt="" coords="97,95,257,136"/>
-<area shape="rect" id="node3" href="$srtp_8h.html" title=" " alt="" coords="5,184,165,225"/>
-<area shape="rect" id="node4" href="$ssl3_8h.html" title=" " alt="" coords="189,184,349,225"/>
-</map>

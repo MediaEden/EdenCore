@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EdenCore: src/Utils/Hash/Hash.cpp File Reference</title>
+<title>EdenCore: include/EdenCore/Utils/Hash/Hash.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,29 +62,38 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a7363e98f9e0bdd87618633653859815.html">Utils</a></li><li class="navelem"><a class="el" href="dir_39289a651fa99e1275af83977f2a985c.html">Hash</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_da3eb40fe023bde7ed6e3c53e0521f01.html">EdenCore</a></li><li class="navelem"><a class="el" href="dir_b8d766dc91da510326b97ef01eb2de09.html">Utils</a></li><li class="navelem"><a class="el" href="dir_bd534c70c535d818d57bf224d41e7f7f.html">Hash</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Hash.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">Hash.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_hash_8h_source.html">EdenCore/Utils/Hash/Hash.h</a>&gt;</code><br />
-<code>#include &lt;cstdint&gt;</code><br />
+<div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Hash.cpp:</div>
+Include dependency graph for Hash.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="_hash_8cpp__incl.png" border="0" usemap="#asrc_2_utils_2_hash_2_hash_8cpp" alt=""/></div>
-<map name="asrc_2_utils_2_hash_2_hash_8cpp" id="asrc_2_utils_2_hash_2_hash_8cpp">
-<area shape="rect" title=" " alt="" coords="51,5,215,32"/>
-<area shape="rect" href="_hash_8h.html" title=" " alt="" coords="5,80,152,121"/>
-<area shape="rect" title=" " alt="" coords="103,169,163,196"/>
+<div class="center"><img src="_hash_8h__incl.png" border="0" usemap="#ainclude_2_eden_core_2_utils_2_hash_2_hash_8h" alt=""/></div>
+<map name="ainclude_2_eden_core_2_utils_2_hash_2_hash_8h" id="ainclude_2_eden_core_2_utils_2_hash_2_hash_8h">
+<area shape="rect" title=" " alt="" coords="5,5,163,47"/>
+<area shape="rect" title=" " alt="" coords="54,95,114,121"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="_hash_8h__dep__incl.png" border="0" usemap="#ainclude_2_eden_core_2_utils_2_hash_2_hash_8hdep" alt=""/></div>
+<map name="ainclude_2_eden_core_2_utils_2_hash_2_hash_8hdep" id="ainclude_2_eden_core_2_utils_2_hash_2_hash_8hdep">
+<area shape="rect" title=" " alt="" coords="9,5,166,47"/>
+<area shape="rect" href="_hash_8cpp.html" title=" " alt="" coords="5,95,169,121"/>
+</map>
+</div>
+</div>
+<p><a href="_hash_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_media_eden"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_media_eden.html">MediaEden</a></td></tr>
@@ -96,8 +105,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a70e2e3ece08751d80efa1382e440b85f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_media_eden_1_1_eden_core_1_1_utils.html#a70e2e3ece08751d80efa1382e440b85f">MediaEden::EdenCore::Utils::GoogleConsistentHash</a> (uint64_t key, int32_t num_buckets)</td></tr>
-<tr class="separator:a70e2e3ece08751d80efa1382e440b85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbbbe82b6211fc8b267237101761ab77"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_media_eden_1_1_eden_core_1_1_utils.html#adbbbe82b6211fc8b267237101761ab77">MediaEden::EdenCore::Utils::JumpConsistentHash</a> (uint64_t key, int32_t num_buckets)</td></tr>
+<tr class="memdesc:adbbbe82b6211fc8b267237101761ab77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Google's Jump Consistent Hash Algorithm.  <a href="namespace_media_eden_1_1_eden_core_1_1_utils.html#adbbbe82b6211fc8b267237101761ab77">More...</a><br /></td></tr>
+<tr class="separator:adbbbe82b6211fc8b267237101761ab77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

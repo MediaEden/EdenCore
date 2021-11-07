@@ -1,9 +1,0 @@
-<map id="libdeps/include/libavutil/hwcontext_videotoolbox.h" name="libdeps/include/libavutil/hwcontext_videotoolbox.h">
-<area shape="rect" id="node1" title=" " alt="" coords="103,5,282,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,71,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="95,95,291,121"/>
-<area shape="rect" id="node4" href="$pixfmt_8h.html" title=" " alt="" coords="315,95,385,121"/>
-<area shape="rect" id="node5" href="$avconfig_8h.html" title=" " alt="" coords="221,169,351,196"/>
-<area shape="rect" id="node6" href="$libdeps_2include_2libavutil_2version_8h.html" title=" " alt="" coords="376,169,452,196"/>
-<area shape="rect" id="node7" href="$libavutil_2macros_8h.html" title=" " alt="" coords="375,244,453,271"/>
-</map>
