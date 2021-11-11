@@ -150,6 +150,7 @@ function init_script() {
 	CURRENT_DIR="${PWD}"
 	BUILD_DIR="${CURRENT_DIR}/build"
 	MAKEFLAG="${MAKEFLAGS} -j${NCPU}"
+	PREFIX="${CURRENT_DIR}/libdeps" # <- for libdeps install
 }
 
 function install_base_ubuntu() {
@@ -386,14 +387,14 @@ function install_eden_core() {
 
 	# The folder in which we will build EdenCore
 	BUILD_DIR="${CURRENT_DIR}/build"
-	if [ -d $build_dir ]; then
+	if [ -d ${BUILD_DIR} ]; then
 		echo "Deleted folder: ${BUILD_DIR}"
-		${SUDO} rm -rf $build_dir
+		${SUDO} rm -rf ${BUILD_DIR}
 	fi
 
-	(cmake -S. -B build && \
-	cmake --build build && \
-	cmake --build build --target install) || fail_exit "install EdenCore failed"
+	(PKG_CONFIG_PATH=./libdeps/lib/pkgconfig cmake -S. -B build && \
+	cmake --build build) || fail_exit "build EdenCore failed"
+#	cmake --build build --target install) || fail_exit "install EdenCore failed"
 	
 	footer
 }
