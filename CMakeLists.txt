@@ -39,7 +39,7 @@ option(${PROJECT_NAME}_ENABLE_DOXYGEN "Enable Doxygen documentation." ON)
 # Unit Testing @TODO: module setup and testing need ...
 option(${PROJECT_NAME}_ENABLE_UNIT_TEST "Enable Unit Tests for the project (from the `test` subforler)." ON)
 option(${PROJECT_NAME}_ENABLE_GTEST "Use the GoogleTest for creating unit tests." ON)
-option(${PROJECT_NAME}_ENABLE_GMOCK "Use the GoogleMock for extending the unit tests." ON)
+option(${PROJECT_NAME}_ENABLE_GMOCK "Use the GoogleMock for extending the unit tests." OFF)
 option(${PROJECT_NAME}_ENABLE_CATCH2 "Use the Catch2 for creating unit tests." ON)
 
 # Code Coverage

@@ -14,8 +14,8 @@ if(${PROJECT_NAME}_ENABLE_GTEST)
   find_package(GTest REQUIRED)
   set(GOOGLE_TEST_LIBRARIES GTest::GTest GTest::Main)
   if(${PROJECT_NAME}_ENABLE_GMOCK)
-    set(GOOGLE_TEST_LIBRARIES ${GOOGLE_TEST_LIBRARIES} GTest::gmock GTest::gmock_main)
-  endif()
+		set(GOOGLE_TEST_LIBRARIES ${GOOGLE_TEST_LIBRARIES} GTest::gmock GTest::gmock_main) # for this, use gtest >= 1.8.1
+	endif()
 
   function(add_gtest_target test_group_name target_name)
     file(

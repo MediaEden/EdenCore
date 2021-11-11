@@ -161,6 +161,7 @@ function install_base_ubuntu() {
 	${SUDO} apt upgrade -y
 	${SUDO} apt install -y pkg-config nasm yasm automake libtool cmake make build-essential autoconf
 	${SUDO} apt install -y libxml2-dev libfreetype-dev
+	${SUDO} apt install -y libgtest-dev libgmock-dev
 	
 	footer
 }
@@ -173,7 +174,8 @@ function install_base_macos() {
 	brew upgrade
 	brew install pkg-config nasm yasm automake libtool cmake make
 	brew install libxml2 freetype
- 	
+	brew install googletest catch2 
+	
 	footer
 }
 
